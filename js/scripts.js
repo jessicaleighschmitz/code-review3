@@ -19,13 +19,17 @@ function countUp(numInput) {
 };
 
 
+
 $(document).ready(function() {
   $("#main-content form").submit(function(event) {
     event.preventDefault();
     var numInput = parseInt($("input#userInput").val());
     var result = countUp(numInput);
 
-    for ()
-    $("#output").text(result);
+for (var i=0; i < result.length; i++) {
+  $('#output ul').append("<li>" + result[i] + "</li>");
+}
+
+
   });
 });
