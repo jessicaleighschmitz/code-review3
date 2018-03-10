@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
 body {
   background-color: #DBDBDB;
@@ -17,20 +18,34 @@ h1 {
   font-size: 3.5em;
   font-family: 'Coiny', cursive;
 }
-#main-content h2 {
-  font-size: 35px;
+#sidebar h2 {
+  font-size: 25px;
+  text-decoration: underline;
+  margin-bottom: 15px;
 }
 
 #sidebar {
   background-color: #A5E3A4;
   height: 700px;
   padding: 15px;
+  line-height: 200%;
 }
  #sidebar h3 {
   color: #FAE690;
 }
 #sidebar p {
   color: #fff;
+}
+#main-content h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+#main-content h3 {
+  margin-bottom: 15px;
+}
+#main-content p {
+  line-height: 150%;
+  font-size: 1.2em;
 }
 #container {
   display: flex;
@@ -40,14 +55,13 @@ h1 {
 }
 ol li {
   line-height: 160%;
+  font-size: 1.2em;
 }
 form {
   padding-left: 40px;
   font-weight: bold;
+  font-size: 1.2em;
 }
 #output {
   padding-left: 40px;
-}
-#userInput {
-
 }
