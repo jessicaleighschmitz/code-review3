@@ -5,7 +5,7 @@ function countUp(numInput) {
     if (i % 15 === 0) {
       outputArr.push("Ping-Pong");
     } else if (i % 5 === 0) {
-      outputArr.push("pong");
+      outputArr.push("Pong");
     } else if (i % 3 === 0) {
       outputArr.push("Ping");
     } else {
