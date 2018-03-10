@@ -9,59 +9,60 @@
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Coiny|Open+Sans" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>Ping-Pong</h1>
     </header>
-    <div id="sidebar">
-      <h2>About Ping-Pong</h2>
-      <h3>Created by:</h3>
-      <p class="sidebar">
-        Jessica Schmitz
-      </p>
-      <h3>GitHub Username/URL:</h3>
-      <p class="sidebar">
-        <a href="https://github.com/jessicaleighschmitz">JessicaLeighSchmitz</a>
-      </p>
-      <h3>Code-Review 3 testing for:</h3>
-      <p class="sidebar">
-        JavaScript
-      </p>
-    </div>
-    <div id="main-content">
-      <div id="rules">
-        <h2>Let's play!</h2>
-        <h3> Rules:</h3>
-        <p>
-          Ping pong will count up to your number from 1 with the following exceptions:
+    <div id="container">
+      <div id="sidebar">
+        <h2>About Ping-Pong</h2>
+        <h3>Created by:</h3>
+        <p class="sidebar">
+          Jessica Schmitz
         </p>
-        <ol>
-          <li>
-            Numbers divisible by 3 become "ping".
-          </li>
-          <li>
-            Numbers disivible by 5 become "pong".
-          </li>
-          <li>
-            Numbers divisble by 3 and 5 become "pingpong".
-          </li>
-        </ol>
+        <h3>GitHub Username/URL:</h3>
+        <p class="sidebar">
+          <a href="https://github.com/jessicaleighschmitz">JessicaLeighSchmitz</a>
+        </p>
+        <h3>Code-Review 3 testing for:</h3>
+        <p class="sidebar">
+          JavaScript
+        </p>
       </div>
+      <div id="main-content">
+        <div id="rules">
+          <h2>Let's play!</h2>
+          <h3> Rules:</h3>
+          <p>
+            Ping pong will count up to your number from 1 with the following exceptions:
+          </p>
+          <ol>
+            <li>
+              Numbers divisible by 3 become "ping".
+            </li>
+            <li>
+              Numbers disivible by 5 become "pong".
+            </li>
+            <li>
+              Numbers divisble by 3 and 5 become "pingpong".
+            </li>
+          </ol>
+        </div>
 
-      <form>
-        <label for="userInput">Enter your number here:</label>
-        <input id="userInput" type="number"/>
-        <input id="submit" type="submit" />
-      </form>
-      <div id="sub-content">
-        <div id="output">
-          <ul>
+        <form>
+          <label for="userInput">Enter your number here:</label>
+          <input id="userInput" type="number"/>
+          <input id="submit" type="submit" value="Ping Pong!"/>
+        </form>
+          <div id="output">
+            <ul>
 
-          </ul>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
 
   </body>
 </html>

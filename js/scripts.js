@@ -1,6 +1,4 @@
 
-//var outputArr =[];
-var ul = $('#output ul');
 function countUp(numInput) {
   const outputArr =[];
   for (var i = 1; i <= numInput; i++) {

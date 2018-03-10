@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: font-family: 'Open Sans', sans-serif;
+}
+body {
+  background-color: #DBDBDB;
+  margin: 0;
+}
+header {
+  background-color: #FAE690;
+  text-align: center;
+  min-height: 5.5em;
+}
+
+h1 {
+  padding: 55px 0;
+  font-size: 3.5em;
+  font-family: 'Coiny', cursive;
+}
+#main-content h2 {
+  font-size: 35px;
+}
+
+#sidebar {
+  background-color: #A5E3A4;
+  height: 700px;
+  padding: 15px;
+}
+ #sidebar h3 {
+  color: #FAE690;
+}
+#sidebar p {
+  color: #fff;
+}
+#container {
+  display: flex;
+}
+#rules {
+  padding: 15px 40px;
+}
+ol li {
+  line-height: 160%;
+}
+form {
+  padding-left: 40px;
+  font-weight: bold;
+}
+#output {
+  padding-left: 40px;
+}
+#userInput {
+
+}
